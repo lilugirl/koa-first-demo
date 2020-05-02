@@ -3,7 +3,9 @@ koa koa-router koa-body koa-jsonn @koa/cors koa-combine-routers koa-helmet koa-s
 
 npm run start
 
-npm run start:es6
+npm run dev
+
+npm run build
 
 对wepack进行调试  
 npm run webpack:debug
