@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js",
-    "start:es6": "nodemon --exec babel-node src/index.js"
+    "start:es6": "nodemon --exec babel-node src/index.js",
+    "webpack:debug": "node --inspect-brk ./node_modules/.bin/webpack --inline --progress"
   },
   "repository": {
     "type": "git",

@@ -4,6 +4,7 @@ const {
   CleanWebpackPlugin
 } = require('clean-webpack-plugin')
 
+debugger
 const webpackconfig = {
   target: 'node',
   mode: 'development',
@@ -42,5 +43,7 @@ const webpackconfig = {
     path: true
   }
 }
+
+console.log(webpackconfig);
 
 module.exports = webpackconfig
